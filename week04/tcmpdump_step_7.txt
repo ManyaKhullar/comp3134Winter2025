@@ -1,0 +1,13 @@
+tcmpdump_step_7
+
+root@Comp3134-Winter2025:~# tcpdump -r 0001.pcap
+reading from file 0001.pcap, link-type EN10MB (Ethernet), snapshot length 262144
+20:42:45.273879 IP Comp3134-Winter2025.ssh > 198.96.85.106.56747: Flags [P.], seq 2528733391:2528733435, ack 2625647365, win 501, length 44
+20:42:45.273954 IP Comp3134-Winter2025.ssh > 198.96.85.106.56747: Flags [P.], seq 44:96, ack 1, win 501, length 52
+20:42:45.274036 IP Comp3134-Winter2025.ssh > 198.96.85.106.56747: Flags [P.], seq 96:164, ack 1, win 501, length 68
+20:42:45.274058 IP Comp3134-Winter2025.ssh > 198.96.85.106.56747: Flags [P.], seq 164:232, ack 1, win 501, length 68
+20:42:45.274103 IP Comp3134-Winter2025.ssh > 198.96.85.106.56747: Flags [P.], seq 232:268, ack 1, win 501, length 36
+20:42:45.278421 IP 198.96.85.106.56747 > Comp3134-Winter2025.ssh: Flags [.], ack 44, win 8277, length 0
+20:42:45.278422 IP 198.96.85.106.56747 > Comp3134-Winter2025.ssh: Flags [.], ack 164, win 8277, length 0
+20:42:45.278422 IP 198.96.85.106.56747 > Comp3134-Winter2025.ssh: Flags [.], ack 268, win 8277, length 0
+root@Comp3134-Winter2025:~#

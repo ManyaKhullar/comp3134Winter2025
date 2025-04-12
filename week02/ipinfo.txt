@@ -1,0 +1,37 @@
+
+AMAZON.COM
+
+IP Address and Geolocation Data for amazon.com:
+-------------------------------------------------
+IP Address: 205.251.242.103
+Geolocation: Ashburn, Virginia, United States
+
+
+NETFLIX.COM
+
+IP Address and Geolocation Data for netflix.com:
+-------------------------------------------------
+IP Address: 44.240.158.19
+Geolocation: Boardman, Oregon, United States
+
+
+STACKOVERFLOW.COM
+
+IP Address and Geolocation Data for stackoverflow.com:
+-------------------------------------------------
+IP Address: 172.64.155.249
+Geolocation:  San Francisco, California, United States
+
+
+APPLE.COM
+IP Address and Geolocation Data for apple.com:
+-------------------------------------------------
+IP Address: 17.253.144.10
+Geolocation: Cupertino, California, United States
+
+
+LINKEDIN.COM
+IP Address and Geolocation Data for linkedin.com:
+-------------------------------------------------
+IP Address: 13.107.42.14
+Geolocation: Redmond, Washington, United States

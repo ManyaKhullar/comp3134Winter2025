@@ -1,0 +1,36 @@
+tcmpdump_step_5
+
+20:39:21.045139 IP Comp3134-Winter2025.ssh > 198.96.85.106.56747: Flags [P.], seq 111428:111808, ack 37, win 501, length 380
+        0x0000:  fe00 0000 0101 f2f0 503b 205a 0800 4510  ........P;.Z..E.
+        0x0010:  01a4 c03e 4000 4006 4f94 8ac5 82e1 c660  ...>@.@.O......`
+        0x0020:  556a 0016 ddab 96b0 1b23 9c80 2f79 5018  Uj.......#../yP.
+        0x0030:  01f5 2b08 0000 5cac ef33 4bb5 bd0a b330  ..+...\..3K....0
+        0x0040:  a38c 2751 b833 9562 ddbf 0d50 660c 664c  ..'Q.3.b...Pf.fL
+        0x0050:  cf7f 463e ef32 a4e2 dbc9 725f 2d4b ab5f  ..F>.2....r_-K._
+        0x0060:  1c90 b7d5 21b5 f645 fb27 793f 547b d337  ....!..E.'y?T{.7
+        0x0070:  479e d79b 42c1 4b2b 410d 3f53 05b6 1c4d  G...B.K+A.?S...M
+        0x0080:  47d4 48dc dcf9 8a0c cb38 4241 0dac 6655  G.H......8BA..fU
+        0x0090:  f66f be08 a1b2 3e65 f755 90a0 eae7 a524  .o....>e.U.....$
+        0x00a0:  fd7e 0592 4ec2 0613 4661 f912 7845 0bdb  .~..N...Fa..xE..
+        0x00b0:  e7d5 d8d3 fdad 9e69 b04d f55f e126 ed05  .......i.M._.&..
+        0x00c0:  2260 0db1 047b e25d 2e66 8535 fa0f b257  "`...{.].f.5...W
+        0x00d0:  d69d 1051 ec45 7e64 3c2d 5d44 caa5 c58d  ...Q.E~d<-]D....
+        0x00e0:  544f 3ed3 5c73 74a2 dab0 8daf ed9a b26e  TO>.\st........n
+        0x00f0:  7c9b b0fe 004e 69bc dab0 16dd 75d1 6b4d  |....Ni.....u.kM
+        0x0100:  5786 8d23 dcf4 234d fadd a4e2 e271 f01d  W..#..#M.....q..
+        0x0110:  4a83 49c5 50f2 36c1 fef1 8f13 7353 90e4  J.I.P.6.....sS..
+        0x0120:  bd3e d2a7 26f5 dd04 ad9f 81e6 2cf5 496a  .>..&.......,.Ij
+        0x0130:  c876 df30 83d6 3f60 e509 df8b 4dcc ec17  .v.0..?`....M...
+        0x0140:  ec6a 1bfd 3af2 1bc4 74d7 9186 4a1a 074e  .j..:...t...J..N
+        0x0150:  8af8 90d1 f3cd 335d fe86 0b24 11c2 00aa  ......3]...$....
+        0x0160:  a43f 8f62 63e0 fe15 2bfa 5b90 c974 18a3  .?.bc...+.[..t..
+^C      0x0170:  8d42 9906 e7e8 8ff2 97f9 1a61 8a48 f078  .B.........a.H.x
+        0x0180:  b582 05c2 c166 7082 0606 9879 db83 9fc4  .....fp....y....
+        0x0190:  ec95 d093 cd40 42a1 0dbf 2f17 325a 1e3e  .....@B.../.2Z.>
+        0x01a0:  eda5 3731 f533 dfa0 2bd5 a80e ee81 2a80  ..71.3..+.....*.
+        0x01b0:  ca62                                     .b
+
+261 packets captured
+2605 packets received by filter
+0 packets dropped by kernel
+root@Comp3134-Winter2025:~#

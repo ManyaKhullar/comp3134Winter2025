@@ -1,0 +1,47 @@
+root@Comp3134-Winter2025:~# nmap google.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-01-24 22:32 UTC
+Nmap scan report for google.com (172.217.165.14)
+Host is up (0.0012s latency).
+Other addresses for google.com (not scanned): 2607:f8b0:400b:802::200e
+rDNS record for 172.217.165.14: yyz12s06-in-f14.1e100.net
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 4.27 seconds
+root@Comp3134-Winter2025:~# nmap -p 80 google.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-01-24 22:34 UTC
+Nmap scan report for google.com (172.217.165.14)
+Host is up (0.0016s latency).
+Other addresses for google.com (not scanned): 2607:f8b0:400b:80c::200e
+rDNS record for 172.217.165.14: yyz12s06-in-f14.1e100.net
+
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds
+root@Comp3134-Winter2025:~# nmap -p 80-443 google.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-01-24 22:35 UTC
+Nmap scan report for google.com (172.217.165.14)
+Host is up (0.0012s latency).
+Other addresses for google.com (not scanned): 2607:f8b0:400b:80c::200e
+rDNS record for 172.217.165.14: yyz12s06-in-f14.1e100.net
+Not shown: 362 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 2.86 seconds
+root@Comp3134-Winter2025:~# nmap -F google.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-01-24 22:36 UTC
+Nmap scan report for google.com (172.217.165.14)
+Host is up (0.0015s latency).
+Other addresses for google.com (not scanned): 2607:f8b0:400b:80c::200e
+rDNS record for 172.217.165.14: yyz12s06-in-f14.1e100.net
+Not shown: 98 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 1.85 seconds

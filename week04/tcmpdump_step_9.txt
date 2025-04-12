@@ -1,0 +1,17 @@
+tcmpdump_step_9
+
+root@Comp3134-Winter2025:~# tcpdump -i eth0 tcp
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+20:46:39.824472 IP Comp3134-Winter2025.ssh > 198.96.85.106.56747: Flags [P.], seq 2528810735:2528810843, ack 2625650033, win 501, length 108
+20:46:39.824532 IP Comp3134-Winter2025.ssh > 198.96.85.106.56747: Flags [P.], seq 108:144, ack 1, win 501, length 36
+20:46:39.824571 IP Comp3134-Winter2025.ssh > 198.96.85.106.56747: Flags [P.], seq 144:196, ack 1, win 501, length 52
+20:46:39.824606 IP Comp3134-Winter2025.ssh > 198.96.85.106.56747: Flags [P.], seq 196:264, ack 1, win 501, length 68
+20:46:39.824658 IP Comp3134-Winter2025.ssh > 198.96.85.106.56747: Flags [P.], seq 264:368, ack 1, win 501, length 104
+20:46:39.840135 IP 198.96.85.106.56747 > Comp3134-Winter2025.ssh: Flags [.], ack 108, win 8277, length 0
+20:46:39.840136 IP 198.96.85.106.56747 > Comp3134-Winter2025.ssh: Flags [.], ack 196, win 8276, length 0
+20:46:39.840136 IP 198.96.85.106.56747 > Comp3134-Winter2025.ssh: Flags [.], ack 368, win 8281, length 0
+20:46:39.924642 IP Comp3134-Winter2025.45858 > 67.207.67.3.domain: Flags [S], seq 3986127538, win 64240, options [mss 1460,sackOK,TS val 2062670040 ecr 0,nop,wscale 7,tfo  cookiereq,nop,nop], length 0
+20:46:39.925829 IP 67.207.67.3.domain > Comp3134-Winter2025.45858: Flags [S.], seq 795732479, ack 3986127539, win 65160, options [mss 1460,sackOK,TS val 1570800783 ecr 2062670040,nop,wscale 9], length 0
+20:46:39.925860 IP Comp3134-Winter2025.45858 > 67.207.67.3.domain: Flags [.], ack 1, win 502, options [nop,nop,TS val 2062670041 ecr 1570800783], length 0
+20:46:39.925898 IP Comp3134-Winter2025.45858 > 67.207.67.3.domain: Flags [P.], seq 1:47, ack 1, win 502, options [nop,nop,TS val 2062670041 ecr 1570800783], length 46 45930+ PTR? 106.85.96.198.in-addr.arpa. (44)

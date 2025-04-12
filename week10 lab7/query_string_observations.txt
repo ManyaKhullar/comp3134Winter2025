@@ -1,0 +1,15 @@
+1) Navigate to the form and type a valid English word. Write your observations.
+
+    When a valid English word is typed into the form (for example, "cybersecurity"), the website returns the definition, usage, and other relevant details of the word. The query string in the URL updates accordingly with the word typed, showing it in the form of a URL parameter like term=cybersecurity. The website functions normally and displays results based on the word typed.
+
+2) Navigate to the URL and type an invalid English word after the /browse/ section of the URL. Write your observations.
+
+    When typing an invalid word into the URL (e.g., https://www.dictionary.com/browse/xyzzy), the website returns a "Sorry, we couldn't find a definition for xyzzy" page. The page may display suggestions for similar words. The query string parameter (term=xyzzy) is passed, but no relevant results are found for the word.
+
+3) Navigate to the form and type the following text: <script>alert(%27hello%27)</script>. Write your observations.
+
+    When submitting the form with this input (i.e., injecting a script), the website seems to process the input normally and returns no error, but no JavaScript code executes. This suggests that the website has sanitization measures in place to prevent Cross-Site Scripting (XSS) attacks. The script input is either encoded or filtered out, preventing potential malicious code execution.
+
+4) Navigate to the URL and type the following text: <script>alert(%27hello%27)</script> after the term= section of the URL. Write your observations.
+
+    When typing <script>alert(%27hello%27)</script> into the URL (https://www.dictionary.com/browse/?term=<script>alert(%27hello%27)</script>), the website returns the term as entered without executing the JavaScript code. Like in the form, the website has likely implemented input validation or sanitization to prevent malicious scripts from being executed. The alert does not show up, indicating that the website effectively mitigates XSS attacks.

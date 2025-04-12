@@ -1,0 +1,13 @@
+A server port is a communication endpoint used by a server to listen for incoming connections from clients.
+The server port range refers to the range of valid port numbers that a server can use to establish communication with clients.
+Port numbers are represented using 16 bits because they are stored as 16-bit unsigned integers, allowing values between 0 and 65535.
+80 - HTTP (Hypertext Transfer Protocol)
+443 - HTTPS (HTTP Secure)
+21 - FTP (File Transfer Protocol)
+22 - SSH (Secure Shell)
+25 - SMTP (Simple Mail Transfer Protocol)
+53 - DNS (Domain Name System)
+110 - POP3 (Post Office Protocol 3)
+143 - IMAP (Internet Message Access Protocol)
+3306 - MySQL Database
+8080 - HTTP Alternate (commonly used for development servers)
